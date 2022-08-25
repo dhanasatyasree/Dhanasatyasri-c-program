@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char s[30];
+int i;
+gets(s);
+for(i=0;s[i] != '\0';i++)
+{
+if((i%2)==0)
+s[i]= to lower(s[i]);
+else
+s[i]= to upper(s[i]);
+}
+printf("\n %s",s);
+return 0;
+}
