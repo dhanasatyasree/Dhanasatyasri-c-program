@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+char str[20];
+int size=0, temp=1, i; 
+printf("enter a string\n");
+gets(s);
+for(i=0;str[]!= '\0';i++);
+{
+size++;
+}
